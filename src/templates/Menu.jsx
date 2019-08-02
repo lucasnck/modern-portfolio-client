@@ -12,6 +12,7 @@ const Menu = () => {
             <Link to="/#language">Formação Acadêmica</Link>
             <Link to="/#articles">Artigos</Link>
             <Link to="/#language">Idiomas</Link>
+            <Link to="/#language">APIs</Link>
         </nav>
     )
 }

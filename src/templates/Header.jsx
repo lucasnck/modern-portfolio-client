@@ -10,9 +10,13 @@ const Header = () => {
         <header>
             <div className="container">
                 <div className="header-space">
-                    <div className="right-menu logo">
-                        <img src={logo} alt="Lucasnck Portfólio" />
-                        <span className="name">lucasnck</span>
+                    <div class="right-menu logo-menu">
+                        <a href="#">
+                            <div className="logo">
+                                <img src={logo} />
+                            </div>
+                            <h1>lucasnck</h1>
+                        </a>
                     </div>
                     <div className="left-menu links">
                         <Menu />
@@ -24,7 +28,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div class="extra-links">
-                            <Link className="btn btn-send-job btn-purple" to="/">Manda Freela</Link>
+                            <Link className="btn btn-send-job btn-purple" to="/">Consultoria</Link>
                         </div>
                     </div>
                 </div>
