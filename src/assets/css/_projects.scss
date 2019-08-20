@@ -1,0 +1,116 @@
+section#projects {
+    height: 100vh;
+    background: rgb(37,34,43);
+    background: linear-gradient(180deg, rgba(37,34,43,1) 16%, rgba(32,30,37,1) 45%);
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    .card {
+        background-color: transparent;
+        color: #000;
+        filter: opacity(0.2);
+        h3.card-title {
+            margin-top: 0.75rem;
+        }
+    }
+
+
+
+    .slick-arrow:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #4d00e8;
+        font-size: 25px;
+    }
+    .slick-next:before {
+        content: "\f054";
+    }
+    .slick-prev:before {
+        content: "\f053";
+    }
+    button.slick-arrow.slick-next {
+        right: 0;
+    }
+    button.slick-arrow.slick-prev {
+        left: 0;
+    }
+
+
+
+    .slick-slide.slick-active.slick-center.slick-current {
+        height: 100%;
+    }
+
+    .slick-slide.slick-active.slick-center.slick-current li {
+        height: 100%;
+    }
+
+    .slick-slide.slick-active.slick-center.slick-current li .card {
+        position: absolute;
+        height: 110%;
+        top: -20px;
+        width: 120%;
+        margin-left: -10%;
+        z-index: 1;
+        background-color: #FFFFFF;
+        color: #333333;
+        filter: opacity(1);
+    }
+
+    .slick-track {
+        height: 400px;
+        padding: 40px 0;
+        box-sizing: content-box;
+    }
+
+    .slick-slide.slick-active.slick-center.slick-current > div {
+        height: 100%;
+        position: relative;
+    }
+
+    .card-header .image {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    li .card {
+        border-radius: 0;
+        border: 2px solid transparent;
+    }
+    
+    li .card .card-body {
+        padding: 10px 45px;
+        color: #FFF;
+    }
+    
+    .slick-slide.slick-active.slick-center.slick-current li .card {
+        background-color: #232129;
+        border: 2px solid #26f1c3;
+        transform: skewX(-10deg);
+    }
+    
+    .slick-slide.slick-active.slick-center.slick-current li .card .card-body {
+        transform: skewX(10deg);
+    }
+    
+    .card-header {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .slick-initialized .slick-slide {
+        padding: 0 0;
+    }
+    
+    a.btn.btn-link {
+        color: #26ebbf;
+        font-weight: 600;
+    }
+
+    h2 {
+        color: #26f1c3;
+        font-weight: 200;
+    }
+
+}

@@ -1,3 +1,13 @@
 @import "_variables";
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900&display=swap");
+
+body * {
+    font-family: $fontFamily;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}

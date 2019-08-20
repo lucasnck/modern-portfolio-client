@@ -1,0 +1,99 @@
+header {
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+    h1 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .left-menu .language .options {
+        display: none;
+    }
+}
+
+.header-space {
+    display: flex;
+    line-height: 60px;
+    justify-content: space-between;
+}
+
+.language span.selected {
+    color: $mediumTurquoise;
+}
+
+.right-menu a {
+    display: flex;
+    h1 {
+        line-height: 60px;
+    }
+}
+.right-menu a img {
+    width: 30px;
+    margin-right: 10px;
+    height: auto;
+    align-self: center;
+}
+
+.left-menu.links {
+    display: flex;
+    justify-content: space-between;
+    .language {
+        padding: 0 15px;
+    }
+}
+
+.menu a {
+    padding: 0 10px;
+    position: relative;
+    font-size: 14px;
+    text-shadow: none;
+    outline: none;
+    color: #4dbad2;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+.menu a:before {
+    position: absolute;
+    top: 0;
+    height: 35px;
+    line-height: 19px;
+    left: 10px;
+    overflow: hidden;
+    max-width: 0;
+    color: #e5f0f1;
+    content: attr(data-hover);
+    -webkit-transition: max-width 0.5s;
+    -moz-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+}
+
+.menu a:hover::before {
+    max-width: 100%;
+}
+
+a.btn.btn-send-job.btn-purple {
+    padding: 0 20px;
+    border: none;
+    line-height: 40px;
+    position: relative;
+    height: 40px;
+    font-size: 14px;
+    color: #1edae4;
+    text-transform: none;
+    font-weight: 700;
+}
+
+.extra-links {
+    padding-left: 20px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 18px;
+    color: $mediumTurquoise;
+}

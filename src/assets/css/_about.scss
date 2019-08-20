@@ -1,0 +1,46 @@
+section#about {
+    height: 100vh;
+    .container {
+        line-height: 20px;
+        transform: translateY(50%);
+    }
+    .about-container {
+        display: inline-block;
+        width: 70%;
+        border-radius: 0;
+        border: 2px solid #26f1c3;
+        margin: 0 auto;
+        color: #FFF;
+        transform: skewX(-20deg);
+        padding: 2rem 3rem 2rem 4rem;
+        background-color: #24212a;
+    }
+    .about-content {
+        transform: skewX(20deg);
+    }
+    a.btn.btn-download-cv {
+        border-color: #26f1c3;
+        border-width: 2px;
+        transform: skewX(-20deg);
+        border-radius: 0;
+        color: #24212a;
+        font-weight: 700;
+        font-size: 14px;
+        height: 45px;
+        line-height: 42px;
+        padding: 0 40px;
+        background-color: #26f1c3;
+    }
+    
+    a.btn.btn-download-cv span {
+        transform: skewX(20deg);
+        display: inline-block;
+    }
+    
+    a.btn.btn-download-cv:hover {
+        background-color: transparent;
+        color: #26f1c3;
+        border-width: 2px;
+    }
+    
+}

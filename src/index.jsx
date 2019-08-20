@@ -12,6 +12,11 @@ import thunk from 'redux-thunk'
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/default.scss'
 
+import '@fortawesome/fontawesome-free/css/all.css'
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 const devtools = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 const store = applyMiddleware(promise, multi, thunk)(createStore)(reducers, devtools)
 ReactDOM.render(

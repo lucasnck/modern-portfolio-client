@@ -1,0 +1,128 @@
+$svgIconDevelopment: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath fill='rgb(106, 201, 207)' d='M877.3,500c-4.3,38.6-20,73.6-43,102.4l32.9,32.9l-31.5,31.5l-32.9-32.9c-28.8,23-63.7,38.7-102.3,43v45.9h-44.6v-45.9c-38.6-4.3-73.6-20-102.4-43l-32.9,32.9l-31.5-31.5l32.9-32.9c-23-28.8-38.7-63.7-43-102.4h-45.9v-44.5h45.9c4.3-38.6,20-73.5,43-102.4l-32.9-32.9l31.5-31.5l32.9,32.9c28.8-23,63.7-38.8,102.4-43.1v-45.8h44.6v45.8c38.6,4.3,73.5,20,102.3,43.1l32.9-32.9l31.5,31.5l-32.9,32.9c23,28.8,38.7,63.7,43,102.4l45.9,0V500H877.3L877.3,500z M678.2,321.8c-86.1,0-155.9,69.8-155.9,155.9s69.8,155.9,155.9,155.9c86.1,0,155.9-69.8,155.9-155.9C834.1,391.6,764.3,321.8,678.2,321.8L678.2,321.8z M433.2,811.8c0,24.6-20,44.6-44.6,44.6c-24.6,0-44.5-20-44.5-44.6c0-24.6,20-44.5,44.5-44.5C413.2,767.3,433.2,787.2,433.2,811.8L433.2,811.8z M165.9,232.7h245v44.5h-245V232.7L165.9,232.7z M165.9,633.6v-44.5h178.2v44.5H165.9L165.9,633.6z M165.9,410.9h200.4v44.6l-200.4,0V410.9L165.9,410.9z M655.9,143.6c0-61.5-27.6-89.1-89.1-89.1H210.5c-61.5,0-89.1,27.6-89.1,89.1v712.7c0,61.5,27.6,89.1,89.1,89.1h356.4c61.5,0,89.1-27.6,89.1-89.1v-66.8h44.6v89.1c0,61.5-49.9,111.4-111.4,111.4H188.2c-61.5,0-111.4-49.9-111.4-111.4V121.4C76.8,59.9,126.7,10,188.2,10h400.9c61.5,0,111.4,49.9,111.4,111.4v44.6h-44.5V143.6L655.9,143.6z'/%3E%3C/g%3E%3C/svg%3E");
+
+.icon-custom {
+    width: 33px;
+    height: 33px;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+    &.svg-devlopment {
+        background-image: $svgIconDevelopment;
+    }
+}
+
+section#consulting {
+    height: 100vh;
+    line-height: 80vh;
+    background: rgb(37, 35, 48);
+    background: linear-gradient(180deg, rgba(37, 35, 48, 1) 16%, rgba(37, 34, 43, 1) 45%);
+    .consulting-container {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .container {
+        line-height: 20px;
+    }
+    h2 {
+        color: #26f1c3;
+        margin-bottom: 3rem;
+        z-index: 0;
+        position: relative;
+        display: inline-block;
+        &:before {
+            content: "sultoria";
+            position: absolute;
+            width: 33px;
+            height: 33px;
+            top: 0px;
+            transform: skewX(0);
+            left: 59px;
+            z-index: -1;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            width: 74%;
+            height: 8px;
+            background-color: #4d00e8;
+            top: 16px;
+            transform: skewX(-47deg) skewY(160deg);
+            left: 19px;
+            z-index: -1;
+        }
+    }
+
+    .phrase {
+        text-align: center;
+        margin: 0 0 4rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #0bf99c;
+            flex: 0 1 25%;
+            line-height: 27px;
+            font-weight: 900;
+            padding: 0 20px;
+            text-align: left;
+            span {
+                font-size: 33px;
+                line-height: 12px;
+                &:first-child {
+                    margin-right: 10px;
+                }
+                &:last-child {
+                    margin-left: 10px;
+                }
+            }
+            strong {
+                font-size: 24px;
+            }
+        }
+
+        .icon {
+            background-color: #4d00e8;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            display: inline-block;
+            position: relative;
+            img {
+                width: 150px;
+                height: auto;
+                position: absolute;
+                left: -24px;
+                top: -29px;
+            }
+        }
+    }
+    .card {
+        background-color: transparent;
+        color: #fff;
+        border-color: #364c57;
+        .icon {
+            height: 70px;
+            line-height: 70px;
+            margin-top: -70px;
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #25222b;
+            width: 70px;
+            border-radius: 50px;
+            font-size: 35px;
+            color: #6ac9cf;
+        }
+        .card-body {
+            margin-top: 20px;
+            position: initial;
+        }
+        a.btn.btn-link {
+            color: #26f1c3;
+        }
+    }
+}

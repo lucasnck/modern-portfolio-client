@@ -5,12 +5,15 @@ import { Link } from 'react-router-dom'
 
 import logo from '../assets/img/logo.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
 const Header = () => {
     return (
         <header>
             <div className="container">
                 <div className="header-space">
-                    <div class="right-menu logo-menu">
+                    <div className="right-menu logo-menu">
                         <a href="#">
                             <div className="logo">
                                 <img src={logo} />
@@ -27,8 +30,8 @@ const Header = () => {
                                 <Link to="/?language=eng">eng</Link>
                             </div>
                         </div>
-                        <div class="extra-links">
-                            <Link className="btn btn-send-job btn-purple" to="/">Consultoria</Link>
+                        <div className="extra-links">
+                            <Link className="btn btn-send-job btn-purple" to="/">Consultoria <FontAwesomeIcon icon={faChevronDown} /></Link>
                         </div>
                     </div>
                 </div>
