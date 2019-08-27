@@ -1,7 +1,7 @@
 section#projects {
-    height: 100vh;
-    background: rgb(37,34,43);
-    background: linear-gradient(180deg, rgba(37,34,43,1) 16%, rgba(32,30,37,1) 45%);
+    min-height: 100vh;
+    background: rgb(37, 34, 43);
+    background: linear-gradient(180deg, rgba(32, 30, 37, 1) 16%, rgba(37, 34, 43, 1) 45%);
     ul {
         list-style: none;
         padding: 0;
@@ -14,8 +14,6 @@ section#projects {
             margin-top: 0.75rem;
         }
     }
-
-
 
     .slick-arrow:before {
         font-family: "Font Awesome 5 Free";
@@ -36,8 +34,6 @@ section#projects {
         left: 0;
     }
 
-
-
     .slick-slide.slick-active.slick-center.slick-current {
         height: 100%;
     }
@@ -53,7 +49,7 @@ section#projects {
         width: 120%;
         margin-left: -10%;
         z-index: 1;
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         color: #333333;
         filter: opacity(1);
     }
@@ -78,31 +74,31 @@ section#projects {
         border-radius: 0;
         border: 2px solid transparent;
     }
-    
+
     li .card .card-body {
         padding: 10px 45px;
-        color: #FFF;
+        color: #fff;
     }
-    
+
     .slick-slide.slick-active.slick-center.slick-current li .card {
         background-color: #232129;
         border: 2px solid #26f1c3;
         transform: skewX(-10deg);
     }
-    
+
     .slick-slide.slick-active.slick-center.slick-current li .card .card-body {
         transform: skewX(10deg);
     }
-    
+
     .card-header {
         border: none;
         background-color: transparent;
     }
-    
+
     .slick-initialized .slick-slide {
         padding: 0 0;
     }
-    
+
     a.btn.btn-link {
         color: #26ebbf;
         font-weight: 600;
@@ -112,5 +108,4 @@ section#projects {
         color: #26f1c3;
         font-weight: 200;
     }
-
 }

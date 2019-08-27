@@ -1,0 +1,38 @@
+section#career {
+    min-height: 100vh;
+    background: rgb(37, 34, 43);
+    background: linear-gradient(180deg, rgba(37, 34, 43, 1) 16%, rgba(32, 30, 37, 1) 45%);
+    h2 {
+        color: #26f1c3;
+        font-weight: 200;
+    }
+
+    ul {
+        list-style: none;
+        li {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    }
+
+    .enterprise .image {
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .enterprise .image * {width: 100px;}
+    
+    .enterprise {
+        padding: 20px;
+        border: 2px dashed #1e1d23;
+        border-radius: 10px;
+    }
+    
+    .enterprise .enterprise-content {
+        font-size: 14px;
+        line-height: 17px;
+        color: #ffffff;
+    }
+
+}

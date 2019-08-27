@@ -10,6 +10,9 @@ import About from '../components/about/About';
 import Consulting from '../components/consulting/Consulting';
 import Skills from '../components/skills/Skills';
 import Projects from '../components/projects/Projects';
+import Career from '../components/career/Career';
+import Academic from '../components/academic/Academic';
+import Articles from '../components/articles/Articles';
 
 class Home extends Component {
 
@@ -21,6 +24,9 @@ class Home extends Component {
                 <Consulting />
                 <Skills />
                 <Projects />
+                <Career />
+                <Academic />
+                <Articles />
             </>
         )
     }

@@ -7,7 +7,7 @@ import Gif from '../../assets/img/florest-pc.png'
 export default () => {
 
     return (
-        <section id="consulting" className="text-center p-5">
+        <section id="consulting" className="text-center">
             <div className="consulting-container">
                 <div className="container">
                     <h2>Consultoria</h2>

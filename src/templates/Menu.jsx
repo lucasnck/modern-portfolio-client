@@ -11,7 +11,7 @@ const Menu = () => {
             <Link to="/#careers">Carreira</Link>
             <Link to="/#language">Formação Acadêmica</Link>
             <Link to="/#articles">Artigos</Link>
-            <Link to="/#language">Idiomas</Link>
+            <Link to="/#contact">Contato</Link>
             <Link to="/#language">APIs</Link>
         </nav>
     )

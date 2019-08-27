@@ -13,7 +13,7 @@ $svgIconDevelopment: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/200
 }
 
 section#skills {
-    height: 100vh;
+    min-height: 100vh;
     line-height: 80vh;
     background: rgb(37,34,43);
     background: linear-gradient(180deg, rgba(37,34,43,1) 16%, rgba(32,30,37,1) 45%);
